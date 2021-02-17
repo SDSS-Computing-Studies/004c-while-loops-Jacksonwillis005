@@ -21,7 +21,7 @@ import random
 import math
 import time
 
-count=2
+count=0
 while   count<20:
     count=count+2
     print(count)

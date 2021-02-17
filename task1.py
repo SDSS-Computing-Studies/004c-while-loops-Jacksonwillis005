@@ -16,3 +16,12 @@ Example:
 10
 ...
 """
+
+import random
+import math
+import time
+
+count=2
+while   count<20:
+    count=count+2
+    print(count)

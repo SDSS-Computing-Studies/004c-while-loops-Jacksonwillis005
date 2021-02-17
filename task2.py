@@ -36,16 +36,14 @@ use while loop to repeat the following block if the password is not correct:
 """
 
 
-username = ""
-password = ""
+username = "admin"
+password = "12345"
 
-
-
-
-username=input("Enter a Username: ")
-password=input("Enter a Password: ")
-username=str(username)
-password=str(password)
+while:
+    username=input("Enter a Username: ")
+    password=input("Enter a Password: ")
+    username=str(username)
+    password=str(password)
 
 if username=="admin" and password=="12345":
     print("Access granted")

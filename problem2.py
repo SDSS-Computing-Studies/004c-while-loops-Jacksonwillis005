@@ -15,3 +15,12 @@ example:
 Enter a number: 4
 4 8 12 16 20 24 28 32 36 40 44 48
 """
+
+import random
+import math
+import time
+
+count=0
+while   count<48:
+    count=count+4
+    print(count)

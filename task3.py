@@ -25,6 +25,6 @@ num=1
 while num % 2 != 0:
     num = float(input("Enter a number: "))
     if (num % 2) == 0:
-        print("That is an even integer.".format(num))
+        print("That is an even integer".format(num))
     else:
-        print("That is not an even integer.".format(num))
+        print("That is not an even integer".format(num))

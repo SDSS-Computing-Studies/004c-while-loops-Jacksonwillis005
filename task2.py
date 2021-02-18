@@ -40,8 +40,8 @@ username = ""
 password = ""
 
 while username!="admin" or password!="12345":
-    username=input("enter the username: ")
-    password=input("enter the password: ")
+    username=input("enter the username: ").strip()
+    password=input("enter the password: ").strip()
     username=str(username)
     password=str(password)
 

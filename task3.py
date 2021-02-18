@@ -21,7 +21,7 @@ That is an even integer
 """
 import math
 
-num = int(input("Enter a number: "))
+num = float(input("Enter a number: "))
 if (num % 2) == 0:
    print("That is an even integer".format(num))
 else:

@@ -21,8 +21,8 @@ That is an even integer
 """
 import math
 
-while number!=%2:
-number=input("enter a number")
-number=float(number)
-if num %2:
-    print("That is an even integer")
+num = int(input("Enter a number: "))
+if (num % 2) == 0:
+   print("that is a even integer".format(num))
+else:
+   print("this is not an even interger".format(num))

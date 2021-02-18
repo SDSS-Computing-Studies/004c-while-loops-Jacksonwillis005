@@ -23,6 +23,6 @@ import math
 
 num = int(input("Enter a number: "))
 if (num % 2) == 0:
-   print("that is a even integer".format(num))
+   print("That is an even integer".format(num))
 else:
-   print("this is not an even interger".format(num))
+   print("That is not an even integer".format(num))

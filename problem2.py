@@ -24,4 +24,4 @@ count=0
 while   count<48:
     
     count=count+4
-    print(count)
+    print(count, end=" ")

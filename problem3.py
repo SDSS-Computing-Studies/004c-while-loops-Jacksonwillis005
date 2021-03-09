@@ -15,6 +15,7 @@ Example:
 """
 
 count=1
-while count > 100:
-    count=count+1
+while count>100:
+    
+    count=count*3
     print (count, end=" ")

@@ -21,7 +21,7 @@ import math
 import time
 
 count=0
-while   count<48:
+while   count<72:
     
     count=count+4
     print(count, end=" ")

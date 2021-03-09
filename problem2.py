@@ -19,9 +19,10 @@ Enter a number: 4
 import random
 import math
 import time
-
+a=input("enter a number:")
+a=int(a)
 count=0
 while   count<72:
     
-    count=count+4
+    count=count+a
     print(count, end=" ")
